@@ -1,0 +1,6 @@
+.ssmc2{width: 100%;overflow: hidden;}
+.ssmc2 ul{margin: 0;padding: 0;font: bold 14px verdana;list-style-type: none;text-align: left;}
+.ssmc2 li{display: inline-block;position: relative;padding: 5px;margin: 0;margin-right: 15px;}
+.ssmc2 li a{display: inline-block;padding: 5px;min-width: 50px;height: 50px;text-decoration: none;color: black;margin: 0 auto;overflow: hidden;transition: all 0.3s ease-in-out;}
+.ssmc2 li:hover a{color: white;background: #A71B15;border-radius: 50%;}
+.ssmc2 li a span{position: relative;top: 35%;}

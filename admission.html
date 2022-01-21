@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Admission</title>
+	<script type="text/javascript" src="projectcode.js"></script>
+	<link rel="stylesheet" href="projectstyle.css">
+</head>
+<body style="background-color: #E0F8C7;">
+	<div align="center">	
+	<div id="frm1" align="left" style="border:2px solid #B8A02D;border-radius: 15px; padding: 5px;">
+	<form name="form1" id="adms">
+	<h1 style="text-align: center;"><img src="Flogo1.png" width="70px" height="70px" align="left">Youth Computer Training Centre</h1>
+	<h2 style="text-align: center;">Admission Form</h2><br><br>
+	<label>Applicant's Name :</label>&nbsp<input type="text" name="an" value="" size="50"><br><br>
+	<label>Father's Name :</label>&nbsp<input type="text" name="fn" value="" size="50"><br><br>
+	<label>Address :</label>&nbsp<input type="text" name="add" value="" size="90"><br><br>
+	<label>Mob No. :</label>&nbsp<input type="text" name="mob" value="" size="50"><br><br>
+	<label>Email Id. :</label>&nbsp<input type="text" name="mail" value="" size="50"><br><br>
+	Gender<br><br>Male<input type="radio" name="gen" value="male">Female<input type="radio" name="gen" value="female"><br><br>
+	Education Qualification<br>
+	<select>
+		<option>Secondery</option>
+		<option>Higher Secondery</option>
+		<option>Graduate</option>
+		<option>Post Graduate</option>
+		<option>Diploma</option>
+		<option>Others</option>
+	</select><br><br>
+	<label>Course applied For</label><br>
+	<select>
+		<option>CITA</option>
+		<option>DITA</option>
+		<option>ADITA</option>
+		<option>CFAS</option>
+		<option>DFAS</option>
+		<option>CDTP</option>
+		<option>DDTP</option>
+		<option>CCAD</option>
+		<option>CBM</option>
+		<option>DMAVE</option>
+		<option>CCHM</option>
+		<option>DCHM</option>
+	</select><br><br>
+	<input type="submit" name="s1" value="Submit Form" onclick="return admission()">
+	</form>
+</div>
+	<div id="adms1">		
+	<a href="index.html"><p id="bthome" class="cbthome">Back to Home</p></a>
+	</div>
+	</div>
+</body>
+</html>
